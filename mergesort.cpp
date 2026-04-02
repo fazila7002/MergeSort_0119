@@ -98,6 +98,11 @@ int mid = (low + high) / 2;
 
         k++;
     }
+
+    for (int x = low; x <= high; x++)
+    {
+        arr[x] = B[x];
+    }
 }
 
 
