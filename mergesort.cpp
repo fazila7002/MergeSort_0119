@@ -77,6 +77,17 @@ int mid = (low + high) / 2;
         k++; // step 4.d.ii
 
     }
+    while (j <= high) 
+
+    {
+
+        B[k] = arr[j]; 
+
+        j++;           
+
+        k = k + 1;     
+
+    }
 }
 
 
